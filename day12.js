@@ -11,7 +11,7 @@ function playRound(playerSelection, computerSelection) {
     } else if (
         (playerSelection === 'hajara' && computerSelection === 'mi9ass')  ||
         (playerSelection === 'mi9ass' && computerSelection === 'wara9a')  ||
-        (playerSelection === 'wara9a' && computerSelection === 'hajara')
+        (playerSelection === 'wara9a' && computerSelection === 'hajara') 
     ) {
         return `You win! ${playerSelection} wins ${computerSelection}`;
     } else {
