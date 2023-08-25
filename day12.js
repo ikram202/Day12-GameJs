@@ -13,9 +13,9 @@ function playRound(playerSelection, computerSelection) {
         (playerSelection === 'mi9ass' && computerSelection === 'wara9a')  ||
         (playerSelection === 'wara9a' && computerSelection === 'hajara')
     ) {
-        return `You win! ${playerSelection} beats ${computerSelection}`;
+        return `You win! ${playerSelection} wins ${computerSelection}`;
     } else {
-        return `You lose! ${computerSelection} beats ${playerSelection}`;
+        return `You lose! ${computerSelection} wins ${playerSelection}`;
     }
 }
 function game() {
